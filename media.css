@@ -1,0 +1,113 @@
+@media (min-width: 998px) {
+	.course__arrow:hover path,
+	.course__arrow:hover rect {
+		stroke: #0562d0;
+	}
+	.slide__main-btn:hover {
+		color: #fff;
+		background-color: #0562d0;
+	}
+	.slide__main-img {
+		transition: 0.5s;
+	}
+	.slide__main-img:hover {
+		transform: scale(1.1);
+	}
+	.slide__main-school:hover .slide__main-school-name {
+		color: #000;
+	}
+	.slide__main-rating-reviews:hover {
+		color: #43454e;
+	}
+	.slide__main-title:hover {
+		color: #000;
+	}
+	.course__link:hover {
+		color: #03408a;
+	}
+}
+
+@media (min-width: 1025px) {
+	.swiper {
+		padding: 3px;
+	}
+	.slide {
+		border-radius: 20px;
+		box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	}
+}
+
+@media (max-width: 1025px) {
+	.course__header {
+		margin-bottom: 21px;
+	}
+	.slide__inner {
+		height: 362px;
+	}
+	.slide__main {
+		padding: 7px 13px 20px;
+	}
+  .slide__main-school-img {
+    width: 20px;
+    height: 20px;
+  }
+  .slide__main-school-name {
+    margin-left: 6px;
+  }
+  .slide__main-rating-value {
+    font-size: 14px;
+  }
+  .slide__main-title-wrapper {
+    margin-top: 12px;
+  }
+  .slide__main-title {
+    font-size: 16px;
+  }
+  .price {
+    font-size: 16px;
+  }
+  .slide__main-inactive-price {
+    font-size: 16px;
+  }
+  .slide__main-btn {
+    height: 38px;
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 750px) {
+  .course__title {
+    font-size: 24px;
+  }
+  .course__arrow {
+    width: 36px;
+    height: 36px;
+  }
+  .slide__header {
+    max-height: 132px;
+  }
+}
+
+@media (max-width: 450px) {
+  .course__header {
+    margin-bottom: 15px;
+  }
+  .course__link-wrapper {
+    margin-top: 6px;
+  }
+  .course__arrow + .course__arrow {
+    margin-left: 6px;
+  }
+}
+
+@media (max-width: 370px) {
+  .course__arrows {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .course__link {
+    font-size: 14px;
+  }
+}
